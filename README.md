@@ -8,13 +8,16 @@ Model baseline based on DeepLearning.AI: Data and Deployment Course (Object dete
 
 ## 2. Image preprocessing
 - Labeling Image with LabelImg: https://github.com/tzutalin/labelImg  
+  
 ![labelimg-documentation](labelimg-documentation.jpg)
 
 ## 3. Augmentation, resize and spliting data
 - Data augmentation and resize using Roboflow: https://roboflow.com/
 - Roboflow Train/Test split details (90% train, 10% test):  
+  
 ![roboflow-documentation-1](roboflow-documentation-1.jpg)
 - New dataset output:  
+  
 ![roboflow-documentation-2](roboflow-documentation-2.jpg)
 
 ## 4. Build the model that you choosed
@@ -75,8 +78,11 @@ img = cv2.imread("img_22.jpg")
 ```
 ## 9. Example output
 - Example output 1:  
+  
 ![output1](output1.jpg)
 - Example output 2:  
+  
 ![output2](output2.jpg)
 - Example output 3:  
+  
 ![output3](output3.jpg)
