@@ -54,7 +54,7 @@ with tf.io.gfile.GFile(CONFIG_PATH, "wb") as f:
 python Tensorflow/models/research/object_detection/model_main_tf2.py --model_dir=Tensorflow/workspace/models/my_ssd_resnet50 --pipeline_config_path=Tensorflow/workspace/models/my_ssd_resnet50/pipeline.config --num_train_steps=5000
 ```
 
-## 6. Evaluate model performance
+## 6. Evaluate the model performance
 - Use this command to evalate using tensorboard:
 ```
 tensorboard --logdir=Tensorflow\workspace\models\my_ssd_resnet50
