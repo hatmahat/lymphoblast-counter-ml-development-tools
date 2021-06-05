@@ -13,7 +13,6 @@
 - Roboflow Train/Test split details (90% train, 10% test):
 ![roboflow-documentation-1](roboflow-documentation-1.jpg)
 - New dataset output:
-![roboflow-documentation-2](roboflow-documentation-2.jpg)
 
 ## 4) Build and Train Model
 - Choose model from TensorFlow 2 Detection Model Zoo: https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
