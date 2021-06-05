@@ -1,18 +1,18 @@
-### Machine Learning Workflow:
+### Machine Learning Workflow:  
 ![workflow](workflow.png)
 
 ## 1. Data acquisition from Acute Lymphoblastic Leukemia Image Database for Image Processing
 - Public dataset link: https://homes.di.unimi.it/scotti/all/
 
 ## 2. Image preprocessing
-- Labeling Image with LabelImg: https://github.com/tzutalin/labelImg
+- Labeling Image with LabelImg: https://github.com/tzutalin/labelImg  
 ![labelimg-documentation](labelimg-documentation.jpg)
 
 ## 3. Augmentation, resize and spliting data
 - Data augmentation and resize using Roboflow: https://roboflow.com/
-- Roboflow Train/Test split details (90% train, 10% test):
+- Roboflow Train/Test split details (90% train, 10% test):  
 ![roboflow-documentation-1](roboflow-documentation-1.jpg)
-- New dataset output:
+- New dataset output:  
 ![roboflow-documentation-2](roboflow-documentation-2.jpg)
 
 ## 4. Build the model that you choosed
@@ -72,9 +72,9 @@ ckpt.restore(os.path.join(CHECKPOINT_PATH, 'ckpt-59')).expect_partial()
 img = cv2.imread("img_22.jpg")
 ```
 ## 9. Example output
-- example output 1:  
+- Example output 1:  
 ![output1](output1.jpg)
-- example output 2:  
+- Example output 2:  
 ![output2](output2.jpg)
-- example output 3:  
+- Example output 3:  
 ![output3](output3.jpg)
