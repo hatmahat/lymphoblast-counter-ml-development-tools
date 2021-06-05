@@ -10,5 +10,5 @@
 
 ## 3) Data Augmentation & Resize Image
 - Data augmentation and resize using Roboflow: https://roboflow.com/
-- Roboflow Train/Test split details:
+- Roboflow Train/Test split (90% train, 10% test) details:
 ![roboflow-documentation-1](roboflow-documentation-1.jpg)
