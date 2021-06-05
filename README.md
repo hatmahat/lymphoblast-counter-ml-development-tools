@@ -1,4 +1,4 @@
-#### Machine Learning Workflow:
+### Machine Learning Workflow:
 ![workflow](workflow.png)
 
 ## 1) Data Acquisition from Acute Lymphoblastic Leukemia Image Database for Image Processing
@@ -7,3 +7,6 @@
 ## 2) Image Preprocessing
 - Labeling Image with LabelImg: https://github.com/tzutalin/labelImg
 ![labelimg-documentation](labelimg-documentation.jpg)
+
+## 3) Data Augmentation & Resize Image
+- Data augmentation and resize using Roboflow: https://roboflow.com/
