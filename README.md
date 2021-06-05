@@ -67,4 +67,11 @@ ckpt = tf.compat.v2.train.Checkpoint(model=detection_model)
 ckpt.restore(os.path.join(CHECKPOINT_PATH, 'ckpt-59')).expect_partial()
 ```
 ## 8. Detection of lymphoblast and non-lymphoblast 
-- 
+- To detect lymphoblast and non-lymphoblast, change the "img_22.jpg" with image you want to detect (remember to use 640x640 image size)
+```
+img = cv2.imread("img_22.jpg")
+```
+## 9. Example output
+![output1](output1.jpg)
+![output2](output2.jpg)
+![output3](output3.jpg)
