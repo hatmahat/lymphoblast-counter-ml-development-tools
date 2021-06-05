@@ -42,3 +42,5 @@ config_text = text_format.MessageToString(pipeline_config)
 with tf.io.gfile.GFile(CONFIG_PATH, "wb") as f:
      f.write(config_text)
 ```
+
+## 5. Train the model
