@@ -21,7 +21,7 @@ Model baseline based on DeepLearning.AI: Data and Deployment Course (Object dete
 ![roboflow-documentation-2](roboflow-documentation-2.jpg)
 
 ## 4. Configure pre-trained model based on your choosing
-- Choose model from TensorFlow 2 Detection Model Zoo: https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
+- Choose the pre-trained model from TensorFlow 2 Detection Model Zoo: https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
 - Configure pipeline.config from the model you downloaded
 - Read pipeline.config from CONFIG_PATH
 ```
