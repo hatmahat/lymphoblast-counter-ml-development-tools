@@ -25,7 +25,7 @@ with tf.io.gfile.GFile(CONFIG_PATH, "r") as f:
      proto_str = f.read()                                                                                                                                                                                                                                          
      text_format.Merge(proto_str, pipeline_config)
 ```
-- Configure pipeline.config as required by the model your choosed (this is just an example that i used)
+- Configure pipeline.config as required by the model you choosed (this is just an example that i used)
 ```
 pipeline_config.model.ssd.num_classes = 2
 pipeline_config.train_config.batch_size = 4
