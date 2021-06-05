@@ -17,5 +17,6 @@
 
 ## 4) Build and Train Model
 - Choose model from TensorFlow 2 Detection Model Zoo: https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
-- Configure pipeline.config  gunakan bla2
+- Configure pipeline.config  
+gunakan bla2
 
