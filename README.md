@@ -44,3 +44,7 @@ with tf.io.gfile.GFile(CONFIG_PATH, "wb") as f:
 ```
 
 ## 5. Train the model
+- Use this command to train your mmodel and change the directory and num_training_steps as you required
+```
+python Tensorflow/models/research/object_detection/model_main_tf2.py --model_dir=Tensorflow/workspace/models/my_ssd_resnet50 --pipeline_config_path=Tensorflow/workspace/models/my_ssd_resnet50/pipeline.config --num_train_steps=5000
+```
