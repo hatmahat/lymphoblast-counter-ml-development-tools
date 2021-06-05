@@ -59,5 +59,12 @@ tensorboard --logdir=Tensorflow\workspace\models\my_ssd_resnet50
 python Tensorflow\models\research\object_detection\model_main_tf2.py --model_dir=Tensorflow\workspace\models\my_ssd_resnet50 --pipeline_config_path=Tensorflow\workspace\models\my_ssd_resnet50\pipeline.config --checkpoint_dir=Tensorflow\workspace\models\my_ssd_resnet50
 ```
 
-## 7. Inference 
-- ...
+## 7. Restore checkpoint 
+- Restore checkpoint, change the ckpt-59 with you final checkpoint from CHECKPOINT_PATH
+```
+# Restore checkpoint (last checkpoint)
+ckpt = tf.compat.v2.train.Checkpoint(model=detection_model)
+ckpt.restore(os.path.join(CHECKPOINT_PATH, 'ckpt-59')).expect_partial()
+```
+## 8. Detection of lymphoblast and non-lymphoblast 
+- 
