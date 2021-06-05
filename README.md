@@ -50,4 +50,11 @@ python Tensorflow/models/research/object_detection/model_main_tf2.py --model_dir
 ```
 
 ## 6. Evaluate model performance
-- ......
+- Use this command to evalate using tensorboard:
+```
+tensorboard --logdir=Tensorflow\workspace\models\my_ssd_resnet50
+```
+- Use this command to see your COCO Metrics Results from command prompt
+```
+python Tensorflow\models\research\object_detection\model_main_tf2.py --model_dir=Tensorflow\workspace\models\my_ssd_resnet50 --pipeline_config_path=Tensorflow\workspace\models\my_ssd_resnet50\pipeline.config --checkpoint_dir=Tensorflow\workspace\models\my_ssd_resnet50
+```
