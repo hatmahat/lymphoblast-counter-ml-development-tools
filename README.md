@@ -6,4 +6,4 @@
 
 2) Image Preprocessing
 - Labeling Image with LabelImg: https://github.com/tzutalin/labelImg
-![labelimg-documentation](labelimg-documentation.png)
+![labelimg-documentation](labelimg-documentation.jpg)
