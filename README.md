@@ -60,7 +60,7 @@ python Tensorflow\models\research\object_detection\model_main_tf2.py --model_dir
 ```
 
 ## 7. Restore checkpoint 
-- Restore checkpoint, change the ckpt-59 with you final checkpoint from CHECKPOINT_PATH
+- Restore checkpoint, change the ckpt-59 with your final checkpoint from CHECKPOINT_PATH
 ```
 # Restore checkpoint (last checkpoint)
 ckpt = tf.compat.v2.train.Checkpoint(model=detection_model)
