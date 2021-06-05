@@ -76,7 +76,7 @@ ckpt.restore(os.path.join(CHECKPOINT_PATH, 'ckpt-59')).expect_partial()
 ```
 img = cv2.imread("img_22.jpg")
 ```
-## 9. Example output
+## 9. Example output image
 - Example output 1:  
   
 ![output1](output1.jpg)
