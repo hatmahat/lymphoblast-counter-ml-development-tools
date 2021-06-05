@@ -38,5 +38,6 @@ pipeline_config.eval_input_reader[0].tf_record_input_reader.input_path[:] = [ANN
 ```
 - Write back to pipeline.config that you already configured
 ```
-config_text = text_format.MessageToString(pipeline_config)                                                                                                                       with tf.io.gfile.GFile(CONFIG_PATH, "wb") as f:                                                                                                                                     f.write(config_text)
+config_text = text_format.MessageToString(pipeline_config)                                                                                                                       with tf.io.gfile.GFile(CONFIG_PATH, "wb") as f:
+     f.write(config_text)
 ```
