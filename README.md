@@ -1,4 +1,4 @@
-## Machine Learning Workflow: 
+## Machine Learning Workflow 
 ### if instructions not clear please email me: mahatma.ageng.wisesa@mail.ugm.ac.id
 Model baseline based on DeepLearning.AI: Data and Deployment Course (Object detection model trained on the coco)  
 ![workflow](workflow.png)
