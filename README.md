@@ -1,6 +1,6 @@
 ## Machine Learning Workflow 
 ### if instructions not clear enough, please email me: mahatma.ageng.wisesa@mail.ugm.ac.id
-Model baseline based on DeepLearning.AI: Data and Deployment Course (Object detection model trained on the coco)  
+Model baseline based on DeepLearning.AI: Data and Deployment Course (object detection model trained on the coco)  
 ![workflow](workflow.png)
 
 ## 1. Data acquisition from Acute Lymphoblastic Leukemia Image Database for Image Processing
