@@ -1,4 +1,4 @@
-## Our Machine Learning Workflow 
+# Our Machine Learning Workflow 
 Model baseline based on DeepLearning.AI: Data and Deployment Course (object detection model trained on the coco)  
 ![workflow](workflow.png)  
 TensorFlow Object Detection API Link: https://github.com/tensorflow/models/tree/master/research/object_detection
