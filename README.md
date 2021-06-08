@@ -1,5 +1,4 @@
 ## Our Machine Learning Workflow 
-### if instructions are not clear enough, please email me: mahatma.ageng.wisesa@mail.ugm.ac.id  
 Model baseline based on DeepLearning.AI: Data and Deployment Course (object detection model trained on the coco)  
 ![workflow](workflow.png)  
 TensorFlow Object Detection API Link: https://github.com/tensorflow/models/tree/master/research/object_detection
@@ -86,3 +85,5 @@ img = cv2.imread("img_22.jpg")
 - Example output 3:  
   
 ![output3](output3.jpg)
+
+### if instructions are not clear enough, please email me: mahatma.ageng.wisesa@mail.ugm.ac.id  
