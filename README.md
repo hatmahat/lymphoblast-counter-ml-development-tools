@@ -26,9 +26,9 @@ Model baseline based on DeepLearning.AI: Data and Deployment Course (object dete
 - Read pipeline.config from CONFIG_PATH
 ```
 pipeline_config = pipeline_pb2.TrainEvalPipelineConfig()
-with tf.io.gfile.GFile(CONFIG_PATH, "r") as f:                                                                                                                                                                                                                     
-     proto_str = f.read()                                                                                                                                                                                                                                          
-     text_format.Merge(proto_str, pipeline_config)
+with tf.io.gfile.GFile(CONFIG_PATH, "r") as f:
+      proto_str = f.read()
+      text_format.Merge(proto_str, pipeline_config)
 ```
 - Configure pipeline.config as required by the model you choosed (this is just an example that i used)
 ```
