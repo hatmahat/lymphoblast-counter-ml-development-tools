@@ -1,5 +1,5 @@
 ## Our Machine Learning Workflow 
-if instructions are not clear enough, please email me: mahatma.ageng.wisesa@mail.ugm.ac.id
+### if instructions are not clear enough, please email me: mahatma.ageng.wisesa@mail.ugm.ac.id  
 Model baseline based on DeepLearning.AI: Data and Deployment Course (object detection model trained on the coco)  
 ![workflow](workflow.png)  
 TensorFlow Object Detection API Link: https://github.com/tensorflow/models/tree/master/research/object_detection
